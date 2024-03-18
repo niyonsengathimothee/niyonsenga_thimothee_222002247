@@ -1,0 +1,134 @@
+
+<html>
+<head>
+	<title>MY BOOK</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="blue sky">
+    <style>
+        body {
+            background-color: rgb(0,0,0);
+            color: blue;
+            font: normal 5px;
+            margin: 5px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 5px;
+        }
+    </style><h2>Menu</h2>
+<center><p>
+    <ul style="margin-top: 55px;"><li style="text-align: center; font-size: 22; font-family: times new roman; display: inline;">
+        <a href="home.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">HOME</a>
+        <a href="about us.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">ABOUT US</a>
+        <a href="sample contact.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">CONTACT</a>
+        <a href="servises.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">SERVICES</a>
+        <a href="customer.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">FORM</a>
+        <a href="table.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">TABLE</a>
+        <a href="mybook.html" style="padding: 10px; color: white; background-color: green; text-decoration: none; margin-right: 15px;">MY BOOK
+        </a></li>
+    </ul>
+        </p></center> 
+	<marquee><h3><b>ONLINE HOSTEL RESERVETION MANAGEMENT SYSTEM</b></h3></marquee>
+    <h1><center>DATABASE AND JAVA WITH ONLINE HOSTEL RESERVETION MANAGEMENT SYSTEM</center></h1>
+	<ol><h2><u><li>I. DATABASE</li></u></h2>
+         
+		<p>Database name used: <b>ONLINE HOSTEL RESERVETION Management System</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b><h1>customer</h1></b></li>
+
+			<p> This table will help customers to get access on accormodation
+            Note: the created email of a customer will allow  him or her to enter the system .</p>
+            <U><b>  customer table has the following attributes</b></U>
+            <p><b><i>customer database table</i></b></br>
+            </p>
+       customer_Id (primary key)...................................: Id for the customer
+      <br>first_mame (varchar)............................: Firstname for customer
+      <br>last_name (varchar)..............................: Lastname for customer
+      <br>email (varchar)......................................: Email of Customer
+      <br>telephone (int).......................................: Telephone number of customer</p></br>
+
+			<li><b><h1>room table</h1></b></li>
+
+			<p>This table represents the rooms avairable for customer .  </p> </br>
+                        <U><b>  room table has the following attributes</b></U>
+            <p><b><i>room database table</i></b></br>
+
+     <br>room_Id (primary key)......................................:Id for the user
+     <br>room type (varchar)...............................:First name for user
+     <br>Status(varchar).................................:Last name for user
+     <br>description (int)......................................:Tin number for user    
+     <br>facilities (int)...................................................:Age of user  </br>                     
+			<li><b><h1>payment Table</h1></b></li></p></br>
+                        <U><b>  payment table has the following attributes</b></U>
+            <p><b><i>payment database table</i></b></br>
+<br>payment_Id (primary key)....................................: Id for the manager                                             
+<br>payment_amount (varchar)..............................: First name of manager    
+<br>payment method (varchar)...............................: Last names of manager                                         
+<br>payment date(varchar)...................................: Address of manager                                                      
+ </br>                                
+
+     <h1><center>DATABASE AND JAVA WITH ONLINE HOSTEL RESERVETION MANAGEMENT SYSTEM</center></h1>
+    <h2><u><li>II. JAVA</li></u></h2> 
+            <li><b><h1> II.1. Introduction</h1></b></li>
+
+<p><h2>
+In this chapter we will be describing how this system will be helpfull to our clients.
+</h2></p></br>
+
+            <li><b><h1>II.2.Tools used to develop this system in java programming</h1></b></li>
+
+            <p><b><u>    Eclipse IDE : </b></u>
+An integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular. </p> </br>
+<p><b><U>   JAR stands for Java Archive :</b></U>
+It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components.</p></br>
+<br></br>
+
+
+            <li><b><u>    MySQL Connectors</u></b></li>
+<p>MySQL provides standards-based drivers for JDBC, ODBC, and Net enabling developers to build database applications in their language.</p>
+<h1><u><i><li><center>Forms and Images</center></li></i></u></h1>
+            <li><b><h1>II.3. Forms description</h1></b></li>
+
+           <b> So let look together how this system will function one by one from the beginning up to the end </b>
+
+            <p><b><u>1.    LOGIN :</u></b></br><br>
+This will help customers to login their Accounts such that they reach to other forms of the system
+</p>
+<img src="2.PNG" width=350 height=300><br>
+    <p><b><u>Create New Account:</u></b>  individual user can register on through the use of create new account button that will direct the user form to fill his/her information as required by the system </p></br>
+
+                <p><b>As we have described in above page login form will direct as on this admin login page. A designated Administrator in this system manages user access of all participant of the system including users, agent, managers oversees financial transactions, and ensures revenue management and data integrity.</p></br>
+
+                <b> So the after admin inserting email and password its will direct into admin dashboard and have ability to check reservation</b><br>
+                <img src="5.PNG" width=350 height=300><br>
+            <b>  Admin dashboard after login</b>
+            <p>With this page we will be show the different tasks like modifying information being inserted by different entities like user, agent who exist or not exist in the system or who do not have knowledge to use the system.</p>
+            <img src="4.png" width=450 height=300><br>
+
+          <p><b>So for this system after admin log in his/her account in dashboard can access to different entities of the system that are described below;</p>
+                         
+
+<b>1.  customer form</b>
+<p><b></b> registered by customer.
+By incorporating agents into your government revenue management system, you can enhance efficiency, accuracy, and compliance while reducing the risks of revenue leakage and fraud. </p>
+<img src="3.png" width=450 height=300><br>
+
+<b>2. Manager or staff Form</b>
+<p><b>
+Under this system the manager has the responsibility of managing agents by gathering all information’s from the user of our system.
+Managers play a key role in analyzing revenue data to identify trends, patterns, and potential areas for improvement.
+</p>
+<img src="6.png" width=450 height=300><br> 
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>:   <b>niyonsenga thimothee</b> </h2></marquee>
+	</body>
+	</html>
